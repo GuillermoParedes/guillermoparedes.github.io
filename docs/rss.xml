@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My Code bad]]></title><description><![CDATA[Blog personal.]]></description><link>https://guillermoparedes.github.io/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 26 Aug 2018 21:01:13 GMT</lastBuildDate><item><title><![CDATA[React.js + Firebase - Parte 1]]></title><link>https://guillermoparedes.github.io//react-p1/</link><guid isPermaLink="false">https://guillermoparedes.github.io//react-p1/</guid><pubDate>Mon, 27 Aug 2018 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[React Bolivia]]></title><description><![CDATA[En ReactBoliva, somos un grupo de apasionados del desarrollo web y del javascript que nos gusta siempre aprender mas y compartir nuestros…]]></description><link>https://guillermoparedes.github.io//ReactBolivia/</link><guid isPermaLink="false">https://guillermoparedes.github.io//ReactBolivia/</guid><pubDate>Fri, 24 Aug 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En ReactBoliva, somos un grupo de apasionados del desarrollo web y del javascript que nos gusta siempre aprender mas y compartir nuestros conocimientos. React simboliza nuestra amor por javascript haciendo posible construir interfaces geniales y siendo ahora la librería mas descargada:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.npmtrends.com/@angular/core-vs-angular-vs-react-vs-vue&quot;&gt;http://www.npmtrends.com/@angular/core-vs-angular-vs-react-vs-vue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Nuestra mision es difundir los conocimientos sobre react en nuestra comunidad, crear un espacio oportuno para que nuestros asistentes hagan networking, difundir oportunidades de congresos, cursos y tambien atraer la atencion de la instituciones publico y privadas para ser el puente de oportunidades laborales. Por ultimo un objetivo es hacer contacto con facebook, expertos interacionales y comunidades de otros pais, tal que podamos brindar a la comunidad de las mejores charlas y oportunidades de crecimiento.&lt;/p&gt;
+&lt;p&gt;Nuestra vision es hacer de react una tegnologia que se use mas en nuestro pais promoviendo la actualizacion a nuevas tegnologias con la comunidad como un actor importante.&lt;/p&gt;
+&lt;p&gt;Unete a nuestro grupo donde tocaremos temas de ReactJS y React Native, desde los fundamentos hasta las ultimas tendencias buscando siempre llegar tanto a los mas expertos como a los que están iniciando.&lt;/p&gt;
+&lt;p&gt;Unete a nuestras paginas y grupos de redes sociales donde se postean:&lt;/p&gt;
+&lt;p&gt;Puedes seguirnos en nuestra pagina de facebook: &lt;a href=&quot;https://www.facebook.com/ReactBolivia/&quot;&gt;ReactBolivia&lt;/a&gt;.
+Puedes seguirnos en nuestra pagina de twitter: &lt;a href=&quot;https://twitter.com/ReactBolivia/&quot;&gt;@ReactBolivia&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ssh para Github, Gitlab, Bitbucket, etc]]></title><description><![CDATA[En este post veremos como configurar nuestro equipo de desarrollo con llaves SSH para GITHUB y GITLAB. Esto puede ser aplicado a BITBUCKET…]]></description><link>https://guillermoparedes.github.io//ssh-para-git/</link><guid isPermaLink="false">https://guillermoparedes.github.io//ssh-para-git/</guid><pubDate>Fri, 30 Mar 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;En este post veremos como configurar nuestro equipo de desarrollo con llaves SSH para GITHUB y GITLAB. Esto puede ser aplicado a BITBUCKET entre otros.
+Estos pasos fueron ejecutados en el sistema operativo Debian 9.&lt;/p&gt;
+&lt;p&gt;Definición
+SSH o Secure Shell, es un protocolo de administración remota que permite a los usuarios controlar y modificar sus servidores remotos a través de Internet. El servicio se creó como un reemplazo seguro para el Telnet sin cifrar y utiliza técnicas criptográficas para garantizar que todas las comunicaciones hacia y desde el servidor remoto sucedan de manera encriptada. Proporciona un mecanismo para autenticar un usuario remoto, transferir entradas desde el cliente al host y retransmitir la salida de vuelta al cliente.
+Puedes ver mas en este &lt;a href=&quot;https://www.hostinger.es/tutoriales/que-es-ssh&quot;&gt;enlace&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Paso 1.&lt;/h3&gt;
+&lt;p&gt;En nuestra terminal escribimos el siguiente comando, con el correo que usamos en github.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;  $ ssh-keygen -t rsa -C &amp;quot;nombre_correo@dominio.extension&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Paso 2.&lt;/h3&gt;
+&lt;p&gt;Nos retornara el siguiente mensaje.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;$Generating public/private rsa key pair.
+Enter file in which to save the key (/home/user_name/.ssh/id_rsa):&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Este punto puedes ponerle un nombre para identificar la llave, en mi caso pondre “github&lt;em&gt;me” y le damos enter. `github&lt;/em&gt;me`&lt;/p&gt;
+&lt;p&gt;Luego pondremos una contraseña para la llave ssh que estamos creando. Ahora repetimos los mismos pasos: 1 y 2, pero para gitlab.&lt;/p&gt;
+&lt;h3&gt;Paso 3.&lt;/h3&gt;
+&lt;p&gt;En nuestra terminal ejecutamos el siguiente comando.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;ls -la ~/.ssh
+bitbucket_me      config              github_me      known_hosts
+bitbucket_me.pub  environment-chigui  github_me.pub&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Paso 4.&lt;/h3&gt;
+&lt;p&gt;Ahora nos ubicaremos en la carpeta “.ssh”, desde la terminal y creamos un archivo llamado “config”.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;cd ~/.ssh
+touch config
+vim config&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Y dentro del archivo ponemos lo siguiente:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Personal account&lt;/span&gt;
+Host github.com
+HostName github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/github_me
+
+&lt;span class=&quot;token comment&quot;&gt;# Gitlab account&lt;/span&gt;
+Host gitlab.com
+HostName gitlab.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/gitlab_me&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;h3&gt;Paso 5&lt;/h3&gt;
+&lt;p&gt;Agregamos nuestras llaves que creamos, con el siguiente comando.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;ssh-add ~/.ssh/github_me
+ssh-add ~/.ssh/gitlab_me&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Una vez generado nuestras llaves, tenemos que agregar dichas llaves ssh, a GITHUB y GITLAB, propiamente dichos.&lt;/p&gt;
+&lt;h3&gt;Paso 6&lt;/h3&gt;
+&lt;p&gt;Una vez ya agregada nuestras “ssh” generados a GITHUB y GITLAB, probamos la conectividad, con el siguiente comando.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot;&gt;
+      &lt;pre class=&quot;language-ssh&quot;&gt;&lt;code class=&quot;language-ssh&quot;&gt;ssh -T git@github.com
+
+Enter passphrase for key &amp;#39;/home/gd/.ssh/github_me&amp;#39;:
+Hi GuillermoParedes! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+&lt;p&gt;Realizando el test de conectividad con las llaves generadas.
+Y listo, ya tenemos configurado nuestras llaves ssh en nuestro equipo de desarrollo.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hola Mundo]]></title><description><![CDATA[Este sera mi primer post, retomando un proyecto que deje de lado, por el trabajo y otros asuntos!.]]></description><link>https://guillermoparedes.github.io//hello-world/</link><guid isPermaLink="false">https://guillermoparedes.github.io//hello-world/</guid><pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Este sera mi primer post, retomando un proyecto que deje de lado, por el trabajo y otros asuntos!.&lt;/p&gt;</content:encoded></item></channel></rss>

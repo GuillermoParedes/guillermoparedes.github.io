@@ -1,0 +1,2 @@
+webpackJsonp([0xdca1871aff65],{515:function(e,t){e.exports={data:{site:{siteMetadata:{title:"My Code bad",author:"Guillermo Paredes Torrez"}},markdownRemark:{id:"/home/gd/Development/MyCodeBad/blog/src/pages/react-p1/index.md absPath of file >>> MarkdownRemark",html:"",frontmatter:{title:"React.js + Firebase - Parte 1",date:"August 27, 2018"}}},pathContext:{slug:"/react-p1/",previous:{fields:{slug:"/ReactBolivia/"},frontmatter:{title:"React Bolivia"}},next:null}}}});
+//# sourceMappingURL=path---react-p-1-ab5998803ef9b1d49bb0.js.map
