@@ -1,5 +1,5 @@
 ---
-title: React Bolivia
+title: Comunidad React Bolivia
 date: '2018-08-24'
 ---
 
