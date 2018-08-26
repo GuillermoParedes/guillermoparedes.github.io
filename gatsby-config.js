@@ -5,7 +5,7 @@ module.exports = {
     description: 'Blog personal.',
     siteUrl: 'https://guillermoparedes.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
