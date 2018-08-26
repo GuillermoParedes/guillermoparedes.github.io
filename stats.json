@@ -1,0 +1,72 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-78384d6c5b09ad18016a.js",
+      "component---src-pages-index-js-78384d6c5b09ad18016a.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-4a775e5915e29a8007cf.js",
+      "component---src-templates-blog-post-js-4a775e5915e29a8007cf.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-08caad12454df8e2b3b5.js",
+      "component---src-layouts-index-js-08caad12454df8e2b3b5.js.map"
+    ],
+    "path---index": [
+      "path---index-b2fdc5ea2d561e568ef7.js",
+      "path---index-b2fdc5ea2d561e568ef7.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-210a89be60f5b803a195.js",
+      "path---hello-world-210a89be60f5b803a195.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-6e82eaae3f56c620a9ec.js",
+      "build-js-styles.css",
+      "commons-6e82eaae3f56c620a9ec.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---ssh-para-git": [
+      "path---ssh-para-git-2cc8ea2bf8aa6a8a1c4c.js",
+      "path---ssh-para-git-2cc8ea2bf8aa6a8a1c4c.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---react-bolivia": [
+      "path---react-bolivia-b2317592f0bcfa7d8c40.js",
+      "path---react-bolivia-b2317592f0bcfa7d8c40.js.map"
+    ],
+    "app": [
+      "app-35c21a51f1054e9b1f17.js",
+      "build-js-styles.css",
+      "app-35c21a51f1054e9b1f17.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---react-p-1": [
+      "path---react-p-1-ab5998803ef9b1d49bb0.js",
+      "path---react-p-1-ab5998803ef9b1d49bb0.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
