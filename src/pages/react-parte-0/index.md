@@ -26,4 +26,4 @@ La maquetación que haremos para la aplicación es algo sencilla, pero la diseñ
 
 En los siguientes posts, estaremos comenzando con la maquetación.
 
-Nos vemos, y felíz código!
+Nos vemos. My Code Bad!
