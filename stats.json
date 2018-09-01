@@ -17,12 +17,16 @@
       "component---src-templates-blog-post-js-4a775e5915e29a8007cf.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-08caad12454df8e2b3b5.js",
-      "component---src-layouts-index-js-08caad12454df8e2b3b5.js.map"
+      "component---src-layouts-index-js-f10b7cfa6c66a0abc68b.js",
+      "component---src-layouts-index-js-f10b7cfa6c66a0abc68b.js.map"
+    ],
+    "path---react-parte-1": [
+      "path---react-parte-1-2acd500cac614fbf12c4.js",
+      "path---react-parte-1-2acd500cac614fbf12c4.js.map"
     ],
     "path---index": [
-      "path---index-a05c3979bd6cb1a40ab2.js",
-      "path---index-a05c3979bd6cb1a40ab2.js.map"
+      "path---index-e5623e90c8458b0d93ea.js",
+      "path---index-e5623e90c8458b0d93ea.js.map"
     ],
     "path---hello-world": [
       "path---hello-world-210a89be60f5b803a195.js",
@@ -47,8 +51,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---react-parte-0": [
-      "path---react-parte-0-5998bd71cb943f586fa9.js",
-      "path---react-parte-0-5998bd71cb943f586fa9.js.map"
+      "path---react-parte-0-f290d71302a7ee974270.js",
+      "path---react-parte-0-f290d71302a7ee974270.js.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
@@ -59,9 +63,9 @@
       "path---react-bolivia-3e2617b0473302023ade.js.map"
     ],
     "app": [
-      "app-571efa617dd76c5e9087.js",
+      "app-674ed62e1eb53358ea09.js",
       "build-js-styles.css",
-      "app-571efa617dd76c5e9087.js.map",
+      "app-674ed62e1eb53358ea09.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
