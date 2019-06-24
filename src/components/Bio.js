@@ -32,7 +32,7 @@ class Bio extends React.Component {
             Frontend Developer en los últimos años, Backend Developer en algunas
             ocasiones. He trabajado con equipos de desarrollo y de manera
             freelancer. Puedes seguirme en twitter como
-            <a href="https://twitter.com/CHIGUI_GD"> @CHIGUI_GD</a>
+            <a href="https://twitter.com/_GD_DEV_"> @_GD_DEV_</a>
           </p>
         </div>
         <div
@@ -80,7 +80,7 @@ class Bio extends React.Component {
             />
           </a>
           <a
-            href="https://twitter.com/CHIGUI_GD"
+            href="https://twitter.com/_GD_DEV_"
             style={{
               textDecoration: 'none',
               boxShadow: 'none',
@@ -88,7 +88,7 @@ class Bio extends React.Component {
           >
             <img
               src={twitterPic}
-              alt={`https://twitter.com/CHIGUI_GD`}
+              alt={`https://twitter.com/_GD_DEV_`}
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
